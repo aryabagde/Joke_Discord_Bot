@@ -15,7 +15,7 @@ client = discord.Client() # discord.py library
 
 db["sad_words"] = ["sad", "depressed", "unhappy", "angry", "depressing", "miserable"]    # words that user will say
 
-db["starter_jokes"] = ["Chalna mc", "Hatt bc", "Get it together Bitch", "Fuck offf bitch","Share it with your bf/gf, Ohh u don't have one that's why you are sharing with me XD"]  #words that bot will say
+db["starter_jokes"] = ["Hehe", "This is what you get son", "Get it together man!", "Do u want a chocobar","Stop crying, scroll over some memes"]  #words that bot will say
 
 def get_joke():
   response = requests.get("https://v2.jokeapi.dev/joke/Any?type=single")
